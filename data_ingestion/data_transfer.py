@@ -8,7 +8,8 @@ class DataConverter:
         
             
     def data_transformation(self):
-        required_columns = list(self.product_data.columns[1:])
+        required_columns = list(self.product_data.columns[1:])  # Not used
+       
         
         product_list = []
         
@@ -38,5 +39,5 @@ class DataConverter:
     
     
 if __name__=="__main__":
-    DataConverter().data_transformation()
+    DataConverter().data_transformation() # for testing
     
