@@ -1,3 +1,5 @@
 .env
 /css
 /data
+
+__pycache__/
