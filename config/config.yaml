@@ -1,5 +1,5 @@
 astra_db:
-  collection_name: "e_commerce_chatbot_768"
+  collection_name: "e_commerce_chatbot"
 
 embedding_model:
   provider: "ollama"
@@ -10,4 +10,4 @@ retriever:
 
 llm:
   provider: "groq"
-  model_name: "qwen/qwen3-32b" 
+  model_name: "gemini-embedding-exp-03-07" 

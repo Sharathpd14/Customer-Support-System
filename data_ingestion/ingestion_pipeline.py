@@ -104,7 +104,7 @@ class DataIngestion:
             collection_name=collection_name,
             api_endpoint=self.db_api_endpoint,
             token=self.db_application_token,
-            namespace=self.db_keyspace,
+            namespace=self.db_keyspace
         )
 
         inserted_ids = vstore.add_documents(documents)
