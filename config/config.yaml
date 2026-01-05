@@ -1,0 +1,13 @@
+astra_db:
+  collection_name: "e_commerce_chatbot_768"
+
+embedding_model:
+  provider: "ollama"
+  model_name: "nomic-embed-text:v1.5"
+
+retriever:
+  top_k: 4
+
+llm:
+  provider: "groq"
+  model_name: "qwen/qwen3-32b" 
