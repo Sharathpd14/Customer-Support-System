@@ -4,10 +4,11 @@ astra_db:
 embedding_model:
   provider: "ollama"
   model_name: "nomic-embed-text:v1.5"
+  # model_name: "gemini-embedding-exp-03-07" 
 
 retriever:
-  top_k: 4
+  top_k: 10
 
 llm:
   provider: "groq"
-  model_name: "gemini-embedding-exp-03-07" 
+  model_name: "qwen/qwen3-32b" 
